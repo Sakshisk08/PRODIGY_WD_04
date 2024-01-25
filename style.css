@@ -1,0 +1,259 @@
+/* Resetting some default styles for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background-color: #070831;
+    font-family: sans-serif;
+}
+
+/* Main container styling */
+.main {
+    width: 100%;
+    background-color: #070831;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+/* Navbar styling */
+.navbar {
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    width: 50px;
+    cursor: pointer;
+    margin-top: -1%;
+    margin-left: -2%;
+}
+
+ul {
+    margin-top: -4%;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #f4f1de;
+    margin-top: -3%;
+    transition: .4s ease;
+}
+
+ul li a:hover {
+    color: rgb(230,104,59);
+}
+
+/* Info styling */
+.info {
+    margin-left: 7%;
+    margin-top: 6%;
+    color: #8d99ae;
+}
+
+.info h1 {
+    font-size: 65px;
+    color: #edf2f4;
+}
+
+.info h3 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #8d99ae;
+}
+
+.info span {
+    color: #f2cc8f;
+}
+
+.info a {
+    text-decoration: none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.info a:hover {
+    background: rgb(59,174,209);
+}
+
+/* Image styling */
+.image {
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.image img {
+    position: absolute;
+    height: 100%;
+    right: 40%;
+    bottom: 0;
+    animation: spinAnimate 25s ease-in 0s infinite normal;
+}
+
+@keyframes spinAnimate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Icons styling */
+.icons a {
+    text-decoration: none;
+    color: #f2e9e4;
+}
+
+.icons ion-icon {
+    margin-left: 10%;
+    margin-top: 5%;
+    color: #f2e9e4;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+}
+
+.icons ion-icon:hover {
+    color: #9a8c98;
+}
+
+/* About Me styling */
+#About {
+    margin-left: 35%;
+    margin-top: 30%;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.Cap {
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    font-size: 10px;
+}
+
+#About h3 {
+    color: #8d99ae;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+#About span {
+    color: #f4f1de;
+}
+
+/* Skills styling */
+#Skills {
+    margin-left: 35%;
+    margin-top: 10%;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+#heading {
+    color: #8d99ae;
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+#list {
+    color: #9a8c98;
+    line-height: 30px;
+    margin-left: 5%;
+}
+
+.sublist {
+    color: whitesmoke;
+    margin-left: 15%;
+    display: flex;
+}
+.footer{
+    display:block;
+    padding-top: 100px;
+    padding-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+/* Contact styling */
+.contact {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 350px;
+}
+.contact a img{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    margin-right: 10px;
+    height: 90px;
+    width: 40px;
+    margin-left: 40px;
+    position: relative;
+    z-index: 6;
+}
+/* Footer line styling */
+.footer-line-block{
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+.footer-line{
+    display: block;
+    width: 5%;
+    height: 1px;
+    margin-right: 70px;
+    margin-bottom: 4px;
+    margin-left: 450px;
+    background-color: #fff4d6;
+    position: relative;
+    z-index: 2;
+}
+.footer-line-hidden {
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    display: block;
+    width: 5%;
+    height: 1px;
+    margin-right: 70px;
+    margin-left: 450px;
+    margin-bottom: 4px;
+    background-color: #fff4d6;
+}
+.logo2{
+    width: 19px;
+    margin-left: 762px;
+    margin-top: 60px;
+}
